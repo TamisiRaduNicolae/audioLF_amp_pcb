@@ -1795,18 +1795,6 @@
 		(uuid "00f64d50-074d-46ec-b6c5-d50a8fe0c4a6")
 	)
 	(junction
-		(at 148.59 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20367d17-4d5f-414f-9de4-820ae7c13523")
-	)
-	(junction
-		(at 139.7 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2141cfb3-b59c-4f03-aa18-8fb35b3610a8")
-	)
-	(junction
 		(at 152.4 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2128,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 71.12) (xy 139.7 72.39)
+			(xy 139.7 66.04) (xy 139.7 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2228,7 +2216,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 62.23) (xy 139.7 59.69)
+			(xy 139.7 52.07) (xy 139.7 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2355,16 +2343,6 @@
 			(type default)
 		)
 		(uuid "3b474074-d6a9-49d5-87f8-69aec9cbf68f")
-	)
-	(wire
-		(pts
-			(xy 139.7 62.23) (xy 148.59 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ca8ddfe-168d-4c5a-b2ff-d38a9949ab6a")
 	)
 	(wire
 		(pts
@@ -2568,16 +2546,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 52.07) (xy 152.4 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dee7aad-16db-4fda-a276-5a5a36a9d491")
-	)
-	(wire
-		(pts
 			(xy 262.89 72.39) (xy 262.89 78.74)
 		)
 		(stroke
@@ -2755,16 +2723,6 @@
 			(type default)
 		)
 		(uuid "87bea172-0adf-48dc-a817-ec5d2a92e7ea")
-	)
-	(wire
-		(pts
-			(xy 148.59 52.07) (xy 148.59 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "881e06cb-3754-4680-9353-aec14105db00")
 	)
 	(wire
 		(pts
@@ -3228,7 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 52.07) (xy 148.59 52.07)
+			(xy 139.7 52.07) (xy 152.4 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3335,16 +3293,6 @@
 			(type default)
 		)
 		(uuid "fa16f448-d678-4da4-baef-599e165178ea")
-	)
-	(wire
-		(pts
-			(xy 139.7 62.23) (xy 139.7 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcba07d6-dadf-41b4-bb39-4f82e924419c")
 	)
 	(wire
 		(pts
@@ -3648,7 +3596,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100u"
 			(at 40.64 30.48 90)
 			(effects
 				(font
@@ -3853,7 +3801,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "100u"
 			(at 167.64 71.1199 0)
 			(effects
 				(font
@@ -4524,7 +4472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "dc=0 ampl=1.44 f=20k td=0 theta=0 phase=0 ac=1"
+		(property "Sim.Params" "dc=0 ampl=1.44 f=10k td=0 theta=0 phase=0 ac=1"
 			(at 24.13 51.9401 0)
 			(effects
 				(font
@@ -4814,76 +4762,6 @@
 			(project "audio_low_freq_amp"
 				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 139.7 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57920947-929c-4664-90cb-0b5e9b593374")
-		(property "Reference" "R13"
-			(at 142.24 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 142.24 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 141.478 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a6088412-670a-4613-a1cb-beba181f1fb7")
-		)
-		(pin "1"
-			(uuid "3da1e621-5127-4584-9d1f-b7207c2aeaf3")
-		)
-		(instances
-			(project "audio_low_freq_amp"
-				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5211,7 +5089,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "3k"
 			(at 120.65 92.7099 0)
 			(effects
 				(font
@@ -5692,7 +5570,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 67.31 180)
+		(at 139.7 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5701,7 +5579,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e54f2f6-ec7d-459f-a11a-89868793bfc3")
 		(property "Reference" "R12"
-			(at 142.24 66.0399 0)
+			(at 142.24 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,8 +5587,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 142.24 68.5799 0)
+		(property "Value" "2k"
+			(at 142.24 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +5597,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 141.478 67.31 90)
+			(at 141.478 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,7 +5606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 67.31 0)
+			(at 139.7 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5615,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 67.31 0)
+			(at 139.7 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6397,7 +6275,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "6k"
 			(at 120.65 105.4099 0)
 			(effects
 				(font
@@ -6467,7 +6345,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "16k"
+		(property "Value" "10k"
 			(at 154.94 146.0499 0)
 			(effects
 				(font
@@ -6745,7 +6623,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "5k"
 			(at 229.87 72.3899 0)
 			(effects
 				(font
@@ -7134,7 +7012,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "1k"
 			(at 142.24 78.7399 0)
 			(effects
 				(font
@@ -7503,7 +7381,7 @@
 				)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "90k"
 			(at 158.75 133.35 90)
 			(effects
 				(font
