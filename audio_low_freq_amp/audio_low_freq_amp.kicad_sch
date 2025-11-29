@@ -5,6 +5,128 @@
 	(uuid "81945fdf-1028-429c-9d81-15fb539a69d7")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -610,6 +732,86 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -1255,397 +1457,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:VDC"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.0254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "V"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Voltage source, DC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "DC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDC_0_0"
-				(polyline
-					(pts
-						(xy -1.27 0.254) (xy 1.27 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.254) (xy -1.27 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -0.254) (xy -0.254 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.254) (xy 0.762 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at 0 1.905 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "VDC_0_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "VDC_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:VSIN"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.0254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "V"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "VSIN"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Voltage source, sinusoidal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Params" "dc=0 ampl=1 f=1k ac=1"
-				(at 2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Sim.Type" "SIN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation ac vac"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VSIN_0_0"
-				(arc
-					(start -1.27 0)
-					(mid -0.635 0.6323)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 0)
-					(mid 0.635 -0.6323)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at 0 1.905 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "VSIN_0_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "VSIN_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers
@@ -2148,12 +1959,6 @@
 		(uuid "0f8fa8e9-4e4c-4587-a690-d15a69daf2e0")
 	)
 	(junction
-		(at 26.67 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1076c936-09af-4f13-94fe-265de71d221c")
-	)
-	(junction
 		(at 177.8 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2316,12 +2121,6 @@
 		(uuid "c9378df7-5002-40cd-a91f-24eeeeedbef8")
 	)
 	(junction
-		(at 26.67 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2523d45-04e7-4d1f-95e6-3433cf31d1f4")
-	)
-	(junction
 		(at 262.89 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2435,6 +2234,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 163.83) (xy 138.43 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fdbdba-b387-45c6-a55f-9f56e30ac2c3")
+	)
+	(wire
+		(pts
 			(xy 60.96 46.99) (xy 60.96 96.52)
 		)
 		(stroke
@@ -2485,16 +2294,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 121.92) (xy 26.67 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10b4989b-3ae7-4790-bd46-c02b933303d6")
-	)
-	(wire
-		(pts
 			(xy 20.32 46.99) (xy 27.94 46.99)
 		)
 		(stroke
@@ -2542,6 +2341,16 @@
 			(type default)
 		)
 		(uuid "13500afc-d315-43ec-a19f-558cb786463d")
+	)
+	(wire
+		(pts
+			(xy 25.4 127) (xy 26.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f42ab4-da02-4dc1-a7c3-a6476f9837fe")
 	)
 	(wire
 		(pts
@@ -2625,7 +2434,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 111.76) (xy 17.78 121.92)
+			(xy 17.78 111.76) (xy 17.78 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2655,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 114.3) (xy 26.67 121.92)
+			(xy 26.67 114.3) (xy 26.67 127)
 		)
 		(stroke
 			(width 0)
@@ -2895,16 +2704,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 137.16) (xy 26.67 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a830f7c-f48f-41c5-b762-bb89fbd84976")
-	)
-	(wire
-		(pts
 			(xy 45.72 99.06) (xy 45.72 97.79)
 		)
 		(stroke
@@ -2932,6 +2731,26 @@
 			(type default)
 		)
 		(uuid "4da62c2d-8abd-4652-b338-93f4dace4a2c")
+	)
+	(wire
+		(pts
+			(xy 17.78 130.81) (xy 26.67 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6bfdbf-0c8f-4c63-aba8-766145a8bc82")
+	)
+	(wire
+		(pts
+			(xy 26.67 130.81) (xy 26.67 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecbade3-20d9-4403-90f4-f6ee176cc17f")
 	)
 	(wire
 		(pts
@@ -3035,16 +2854,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 163.83) (xy 138.43 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63bc5c3b-58fe-441a-a2fc-81d2f71d5506")
-	)
-	(wire
-		(pts
 			(xy 134.62 127) (xy 134.62 114.3)
 		)
 		(stroke
@@ -3095,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 148.59) (xy 26.67 149.86)
+			(xy 26.67 142.24) (xy 26.67 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3325,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 46.99) (xy 20.32 50.8)
+			(xy 20.32 46.99) (xy 20.32 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3625,6 +3434,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 64.77) (xy 25.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d41d0b-2f8b-4c6d-ad4c-302324f0f6ef")
+	)
+	(wire
+		(pts
 			(xy 186.69 64.77) (xy 186.69 78.74)
 		)
 		(stroke
@@ -3725,16 +3544,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 121.92) (xy 26.67 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d570192b-e448-4854-8ae3-da626c23c84a")
-	)
-	(wire
-		(pts
 			(xy 160.02 55.88) (xy 160.02 58.42)
 		)
 		(stroke
@@ -3772,16 +3581,6 @@
 			(type default)
 		)
 		(uuid "d8acbaad-2cef-49ee-a7a4-068340e954f3")
-	)
-	(wire
-		(pts
-			(xy 20.32 67.31) (xy 20.32 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db0cc6d2-5928-4f0c-bbef-f01dabaa8b55")
 	)
 	(wire
 		(pts
@@ -3985,16 +3784,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 133.35) (xy 26.67 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fef315b6-1029-4dd9-8f3e-9330337e497b")
-	)
-	(wire
-		(pts
 			(xy 26.67 97.79) (xy 26.67 114.3)
 		)
 		(stroke
@@ -4004,7 +3793,7 @@
 		(uuid "ff28f5fd-f88e-48db-ac2e-9f378bd0b98e")
 	)
 	(label "Feedback"
-		(at 133.35 163.83 0)
+		(at 132.08 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4024,12 +3813,12 @@
 		(uuid "4ef06764-5570-4379-9c72-0b94f9f28dfd")
 	)
 	(label "Feedback"
-		(at 121.92 96.52 0)
+		(at 132.08 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "53c3ca29-de0e-4dab-ae5b-be77260690bf")
 	)
@@ -4042,26 +3831,6 @@
 			(justify left bottom)
 		)
 		(uuid "8aafb00c-2cde-47d3-bc9e-2f4766dee364")
-	)
-	(label "VMINUS"
-		(at 26.67 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "914f29b1-d28a-4f20-9e6e-6bb3bd87292a")
-	)
-	(label "VPLUS"
-		(at 26.67 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d9d8536-f242-4ca8-8fe5-6a8258ec8678")
 	)
 	(label "-20V"
 		(at 241.3 153.67 0)
@@ -4084,12 +3853,12 @@
 		(uuid "ef540ab7-f4ca-4dd5-91e3-e215fa58f898")
 	)
 	(label "Vout"
-		(at 165.1 163.83 0)
+		(at 167.64 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f57b1745-b358-4e1a-8d68-81be72c68251")
 	)
@@ -4121,7 +3890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:10uF_smd_6.3x5.4_Radu"
 			(at 137.4648 185.42 0)
 			(effects
 				(font
@@ -4190,7 +3959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:sot23_Radu"
 			(at 247.65 83.82 0)
 			(effects
 				(font
@@ -4306,7 +4075,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:10uF_smd_6.3x5.4_Radu"
 			(at 39.37 85.3948 0)
 			(effects
 				(font
@@ -4375,7 +4144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:sot23_Radu"
 			(at 64.77 50.8 0)
 			(effects
 				(font
@@ -4676,6 +4445,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 20.32 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0be75286-14ca-4f27-8868-d72898ed3e30")
+		(property "Reference" "J2"
+			(at 20.955 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 20.955 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "my_lib_Radu:J_conn_4x4mm_Radu"
+			(at 20.32 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 20.32 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b26d71cb-2ce1-48a8-8b75-b9c6e0f3f629")
+		)
+		(instances
+			(project "audio_low_freq_amp"
+				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 45.72 53.34 0)
 		(unit 1)
@@ -4740,6 +4574,71 @@
 			(project "audio_low_freq_amp"
 				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 21.59 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e7662af-25ab-4bb2-92db-73c662fcc223")
+		(property "Reference" "J1"
+			(at 22.225 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 22.225 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "my_lib_Radu:J_conn_4x4mm_Radu"
+			(at 21.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 21.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de8dc62f-0e1c-44f1-af8c-9ecdcc7b1d1f")
+		)
+		(instances
+			(project ""
+				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4900,7 +4799,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 168.91 93.9799 0)
 			(effects
 				(font
@@ -4909,7 +4808,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical"
+		(property "Footprint" "my_lib_Radu:ts53yl_Radu"
 			(at 171.45 92.71 0)
 			(effects
 				(font
@@ -4980,7 +4879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:10uF_smd_6.3x5.4_Radu"
 			(at 38.1 171.7548 0)
 			(effects
 				(font
@@ -5115,7 +5014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:sot23_Radu"
 			(at 115.57 96.52 0)
 			(effects
 				(font
@@ -5273,17 +5172,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:VDC")
-		(at 26.67 128.27 0)
+		(lib_id "Mechanical:Fiducial")
+		(at 259.08 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "23367806-a845-47f9-a336-575abc8cb4e2")
-		(property "Reference" "V1"
-			(at 30.48 126.8701 0)
+		(uuid "2565a784-35e8-43da-91ce-c0f4b987de46")
+		(property "Reference" "FID1"
+			(at 261.62 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,8 +5190,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20"
-			(at 30.48 129.4101 0)
+		(property "Value" "Fiducial"
+			(at 261.62 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,8 +5199,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 26.67 128.27 0)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 259.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,8 +5208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 26.67 128.27 0)
+		(property "Datasheet" "~"
+			(at 259.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,53 +5217,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage source, DC"
-			(at 26.67 128.27 0)
+		(property "Description" "Fiducial Marker"
+			(at 259.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 26.67 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 26.67 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 26.67 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "164b24e0-b62c-40a1-9bc6-3372406a1f2a")
-		)
-		(pin "1"
-			(uuid "174d3dfc-f3f1-4b3c-af96-3d9ce65073d8")
 		)
 		(instances
-			(project "audio_low_freq_amp"
+			(project ""
 				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
-					(reference "V1")
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -5450,6 +5315,137 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 15.24 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c461aac-73b8-4f62-ac47-d733b397de6a")
+		(property "Reference" "J3"
+			(at 15.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 15.24 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "my_lib_Radu:J_conn_4x4mm_Radu"
+			(at 15.24 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 15.24 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 15.24 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35a922e6-2c25-426f-91ad-05d9b484421c")
+		)
+		(instances
+			(project "audio_low_freq_amp"
+				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 25.4 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d693680-12ad-42ac-b50d-fa6a7c2b9f4f")
+		(property "Reference" "J4"
+			(at 26.67 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 26.67 61.5949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "my_lib_Radu:J_conn_4x4mm_Radu"
+			(at 25.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 25.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "686bebcc-ea2e-4069-8c69-2ae5731a3381")
+		)
+		(instances
+			(project "audio_low_freq_amp"
+				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:PNP")
 		(at 114.3 96.52 180)
 		(unit 1)
@@ -5476,7 +5472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:sot23_Radu"
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -5791,7 +5787,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.668 119.38 90)
 			(effects
 				(font
@@ -5861,7 +5857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:sot23_Radu"
 			(at 260.35 123.19 0)
 			(effects
 				(font
@@ -6018,114 +6014,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:VSIN")
-		(at 20.32 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46f8333e-4744-4cf5-a814-686993b991bc")
-		(property "Reference" "V3"
-			(at 24.13 54.4801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VSIN"
-			(at 24.13 57.0201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 20.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage source, sinusoidal"
-			(at 20.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 20.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "dc=0 ampl=1.44 f=10k td=0 theta=0 phase=0 ac=1"
-			(at 24.13 58.2901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "SIN"
-			(at 20.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 20.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a77ced22-0c2a-412f-8108-2396544aa4da")
-		)
-		(pin "1"
-			(uuid "f2ad560e-e98e-49ce-87e6-29c8abaedb76")
-		)
-		(instances
-			(project "audio_low_freq_amp"
-				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
-					(reference "V3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 252.73 86.36 270)
 		(unit 1)
@@ -6221,7 +6109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:10uF_smd_6.3x5.4_Radu"
 			(at 199.6948 80.01 0)
 			(effects
 				(font
@@ -6493,7 +6381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:sot23_Radu"
 			(at 232.41 134.62 0)
 			(effects
 				(font
@@ -6681,7 +6569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:sot23_Radu"
 			(at 274.32 115.57 0)
 			(effects
 				(font
@@ -6982,6 +6870,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 25.4 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7352552a-ffe6-4d25-befb-6a09e5a12745")
+		(property "Reference" "#PWR07"
+			(at 25.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d40f168b-827e-47c8-b7c7-022cba94ff1e")
+		)
+		(instances
+			(project "audio_low_freq_amp"
+				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NPN")
 		(at 238.76 60.96 0)
 		(unit 1)
@@ -7008,7 +6962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:sot23_Radu"
 			(at 302.26 60.96 0)
 			(effects
 				(font
@@ -7169,72 +7123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 20.32 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80b5932b-5ebc-42fa-993a-aec401710ea3")
-		(property "Reference" "#PWR07"
-			(at 20.32 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.32 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f7a8084-22aa-4b3a-8b79-f40fff8d8798")
-		)
-		(instances
-			(project "audio_low_freq_amp"
-				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:NPN")
 		(at 224.79 53.34 0)
 		(unit 1)
@@ -7261,7 +7149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:sot23_Radu"
 			(at 288.29 53.34 0)
 			(effects
 				(font
@@ -7379,7 +7267,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.668 107.95 90)
 			(effects
 				(font
@@ -7440,7 +7328,7 @@
 			)
 		)
 		(property "Value" "+20V"
-			(at 27.94 83.82 0)
+			(at 26.67 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,7 +7403,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.668 96.52 90)
 			(effects
 				(font
@@ -7786,7 +7674,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 115.57 44.45 0)
 			(effects
 				(font
@@ -7935,44 +7823,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:VDC")
-		(at 26.67 143.51 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 275.59 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a1bc884b-7e2c-44bc-ba0a-2f8bfff2ef1a")
-		(property "Reference" "V2"
-			(at 30.48 142.1101 0)
+		(uuid "a75ab182-2cc7-4c3b-8669-02306704b29f")
+		(property "Reference" "J5"
+			(at 274.955 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "20"
-			(at 30.48 144.6501 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 274.955 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 26.67 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 26.67 143.51 0)
+		(property "Footprint" "my_lib_Radu:J_conn_4x4mm_Radu"
+			(at 275.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7980,8 +7857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage source, DC"
-			(at 26.67 143.51 0)
+		(property "Datasheet" "~"
+			(at 275.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,44 +7866,22 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 26.67 143.51 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 275.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Type" "DC"
-			(at 26.67 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 26.67 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9aec9d0c-f412-4ee4-935f-8f2c4335d318")
 		)
 		(pin "1"
-			(uuid "ca9b9a5d-7b1f-4128-a659-ab3e7020baae")
+			(uuid "809f7068-0ea0-419c-9517-724e82eb0696")
 		)
 		(instances
 			(project "audio_low_freq_amp"
 				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
-					(reference "V2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8333,7 +8188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:10uF_smd_6.3x5.4_Radu"
 			(at 35.56 46.0248 0)
 			(effects
 				(font
@@ -8609,7 +8464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 115.57 34.29 0)
 			(effects
 				(font
@@ -8704,7 +8559,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.37 96.8248 0)
 			(effects
 				(font
@@ -8772,7 +8627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 38.1 160.3248 0)
 			(effects
 				(font
@@ -8911,7 +8766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:sot23_Radu"
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -9019,7 +8874,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "100p"
 			(at 161.29 114.3 90)
 			(effects
 				(font
@@ -9027,7 +8882,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 165.1 118.4148 0)
 			(effects
 				(font
@@ -9096,7 +8951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:sot23_Radu"
 			(at 215.9 127 0)
 			(effects
 				(font
@@ -9214,7 +9069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:sot23_Radu"
 			(at 193.04 50.8 0)
 			(effects
 				(font
@@ -9332,7 +9187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_lib_Radu:sot23_Radu"
 			(at 21.59 129.54 0)
 			(effects
 				(font
@@ -9417,6 +9272,70 @@
 			(project "audio_low_freq_amp"
 				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 93.98 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbe5b03f-e720-440f-b162-daa97ee719a2")
+		(property "Reference" "FID2"
+			(at 96.52 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 96.52 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 93.98 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 93.98 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "audio_low_freq_amp"
+				(path "/81945fdf-1028-429c-9d81-15fb539a69d7"
+					(reference "FID2")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,202 @@
+(footprint "ts53yl_Radu"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, Vishay TS53YL, https://www.vishay.com/docs/51008/ts53.pdf")
+	(tags "Potentiometer vertical Vishay TS53YL")
+	(property "Reference" "POT"
+		(at -0.175 -3.75 0)
+		(layer "F.SilkS")
+		(uuid "54fbc405-6248-4e2c-8904-f0a61d05dbcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ts53yl_Radu"
+		(at -0.175 3.75 0)
+		(layer "F.Fab")
+		(uuid "bc5ee390-0189-4aeb-b99d-525233bfe545")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72ccef0a-48f7-4141-ae41-f2fbe8a2507c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ac2ce33-a61f-4f09-bde4-1362ffa9443b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.61 -2.61)
+		(end 2.61 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b949fad-3600-40c8-bda2-6be82e4f9232")
+	)
+	(fp_line
+		(start 2.61 -2.61)
+		(end 2.61 -2.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b761a1e-e6f1-44ca-afb8-33130c1a0054")
+	)
+	(fp_line
+		(start 2.61 -0.27)
+		(end 2.61 0.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aead5ec5-7520-460e-b9b7-0939c978d18c")
+	)
+	(fp_line
+		(start 2.61 2.03)
+		(end 2.61 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "146811c3-f9c2-4c45-a4b7-6880c66a281c")
+	)
+	(fp_line
+		(start 2.61 2.61)
+		(end -2.61 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9468a4d-3a3f-4903-9070-c807076a415c")
+	)
+	(fp_rect
+		(start -4 -2.75)
+		(end 3.65 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e3c3fba2-84af-408e-8cf9-0688ef2a4188")
+	)
+	(fp_line
+		(start -0.862 0)
+		(end 0.862 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e848465-c076-45ae-a903-88b7bf5e09a0")
+	)
+	(fp_line
+		(start 0 -0.862)
+		(end 0 0.862)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2fcbf253-c7be-4f32-b054-be607501e790")
+	)
+	(fp_rect
+		(start -2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "655cea29-1d5e-458c-bbd1-72bb57bf84ee")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.15 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e061edcc-7d48-4b99-8f48-8755ddf1daa4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(layer "F.Fab")
+		(uuid "a9f83e2f-bc24-4b1f-8350-c24bfa73fb07")
+		(effects
+			(font
+				(size 0.68 0.68)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 2.75 -1.15)
+		(size 1.3 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.192308)
+		(uuid "5b3269ff-fbd0-4f7d-81de-a0f9ad2f1536")
+	)
+	(pad "2" smd roundrect
+		(at -2.75 0 90)
+		(size 2 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.192308)
+		(uuid "c35977f8-0a27-4b2a-b467-966418704dc6")
+	)
+	(pad "3" smd roundrect
+		(at 2.75 1.15)
+		(size 1.3 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.192308)
+		(uuid "954b43f9-bd43-4d51-8838-f87dd346b3dd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Vishay_TS53YL_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
