@@ -2103,6 +2103,12 @@
 		(uuid "b28df930-f157-4808-8102-3ac880c453d8")
 	)
 	(junction
+		(at 44.45 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9dadf54-ab70-4098-94ee-7036ddce33f9")
+	)
+	(junction
 		(at 45.72 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2151,16 +2157,10 @@
 		(uuid "ef6db449-c63f-40e4-9233-13a3570dca45")
 	)
 	(junction
-		(at 44.45 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2587d66-c0d4-4e78-9a60-d57733600876")
-	)
-	(junction
 		(at 26.67 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f7cac18e-8fd3-48c1-82af-4bab59c3a1e7")
+		(uuid "fe4ee5e2-e859-4a60-b5a4-647066b2ae81")
 	)
 	(wire
 		(pts
@@ -2271,16 +2271,6 @@
 			(type default)
 		)
 		(uuid "0b88b23d-d4d9-46e5-8600-417631f122ab")
-	)
-	(wire
-		(pts
-			(xy 44.45 161.29) (xy 44.45 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c743287-eb28-4530-b6c6-ac0a86a9f5f1")
 	)
 	(wire
 		(pts
@@ -2724,6 +2714,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 172.72) (xy 26.67 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7ebb8b-c7cc-4d81-9e4e-95bf18d2ce48")
+	)
+	(wire
+		(pts
 			(xy 82.55 134.62) (xy 82.55 138.43)
 		)
 		(stroke
@@ -2781,6 +2781,16 @@
 			(type default)
 		)
 		(uuid "56bbe9f0-be62-4a32-b62e-7ece4b673b64")
+	)
+	(wire
+		(pts
+			(xy 44.45 172.72) (xy 44.45 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56dc80e6-8621-45b8-af28-6fbdfed6279e")
 	)
 	(wire
 		(pts
@@ -3034,16 +3044,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 173.99) (xy 44.45 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e351c45-09cd-4fd3-a338-af31f9cd7603")
-	)
-	(wire
-		(pts
 			(xy 138.43 193.04) (xy 138.43 194.31)
 		)
 		(stroke
@@ -3081,6 +3081,16 @@
 			(type default)
 		)
 		(uuid "83b9e589-8e06-4458-ba14-595e16a058db")
+	)
+	(wire
+		(pts
+			(xy 26.67 161.29) (xy 26.67 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85178df4-9b84-4807-9785-be3ffdf7d46d")
 	)
 	(wire
 		(pts
@@ -3324,16 +3334,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 172.72) (xy 26.67 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b303db9a-c0e3-4d80-8241-fe78258587a7")
-	)
-	(wire
-		(pts
 			(xy 90.17 129.54) (xy 97.79 129.54)
 		)
 		(stroke
@@ -3341,6 +3341,16 @@
 			(type default)
 		)
 		(uuid "b386582d-618b-43cb-abee-65d7b7692e9d")
+	)
+	(wire
+		(pts
+			(xy 44.45 161.29) (xy 44.45 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4110ae9-6c41-4bb3-9cd4-c68ee2296405")
 	)
 	(wire
 		(pts
@@ -3451,16 +3461,6 @@
 			(type default)
 		)
 		(uuid "c4584987-e13a-4d89-a0cc-80dbba295923")
-	)
-	(wire
-		(pts
-			(xy 26.67 161.29) (xy 26.67 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6b06b3d-6cea-4362-a89e-368ac4e237ea")
 	)
 	(wire
 		(pts
@@ -3873,7 +3873,7 @@
 		(fields_autoplaced yes)
 		(uuid "0090092b-814b-4287-97e6-ea585bff5ce4")
 		(property "Reference" "C2"
-			(at 141.486 187.9599 0)
+			(at 142.24 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,8 +3881,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
-			(at 141.486 190.4999 0)
+		(property "Value" "4.7u"
+			(at 142.24 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +3890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "my_lib_Radu:10uF_smd_6.3x5.4_Radu"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 137.4648 185.42 0)
 			(effects
 				(font
@@ -4855,7 +4855,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 34.29 172.72 90)
+		(at 34.29 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4880,7 +4880,7 @@
 			)
 		)
 		(property "Footprint" "my_lib_Radu:10uF_smd_6.3x5.4_Radu"
-			(at 38.1 171.7548 0)
+			(at 30.48 173.6852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6092,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d055ca4-b3fd-44cb-bcfd-f4ca10a7e847")
 		(property "Reference" "C4"
-			(at 204.4002 82.5499 0)
+			(at 204.47 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,8 +6100,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
-			(at 204.4002 85.0899 0)
+		(property "Value" "4.7u"
+			(at 204.47 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +6109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "my_lib_Radu:10uF_smd_6.3x5.4_Radu"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 199.6948 80.01 0)
 			(effects
 				(font
@@ -8180,7 +8180,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "4.7u"
 			(at 31.75 41.91 90)
 			(effects
 				(font
@@ -8188,7 +8188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_lib_Radu:10uF_smd_6.3x5.4_Radu"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 35.56 46.0248 0)
 			(effects
 				(font
